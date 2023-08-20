@@ -100,7 +100,7 @@ function App() {
 					/>
 				</div>
 				<div className='h-0 transition-all duration-200 ease-in-out shadow bg-gray-50 group group-focus-within:h-12'>
-					<div className='items-center justify-between hidden p-4 transition-all ease-in-out delay-200 transform group group-focus-within:flex'>
+					<div className='flex items-center justify-between opacity-0 p-4 transition-all ease-in-out before:delay-200 transform group group-focus-within:opacity-100'>
 						<p className='text-sm font-semibold text-gray-500'>Today</p>
 						<button className='items-center justify-center w-6 h-6 rounded hover:bg-gray-200 '>
 							<svg
